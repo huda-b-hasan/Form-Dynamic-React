@@ -70,6 +70,12 @@ form input[type="button"]{
     color: white;
     background-color: rgb(81, 32, 28);
 }
+form input[type="submit"]:hover,
+form input[type="reset"]:hover,
+form input[type="button"]:hover{
+    color: white;
+    background-color: #5120199c;
+}
 form select option{
     background-color: rgb(214, 210, 210);
     border: none;
