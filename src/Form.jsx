@@ -79,7 +79,7 @@ export default function Form(){
     }
     //list of input
     const ListOfInputs = configInputs.map((feild)=>{
-        return <Field key={feild.id} infoField={feild} handleChange={handleChange}  />
+        return <Field key={feild.id} value={formValue[feild.name] || ""} infoField={feild} handleChange={handleChange}  />
     })
     return <>
         <img className='avatar' src={avatarImg} alt="avatar" />
